@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins; 
+}
+
+body{
+    background-color: #e4e6e9;
+}
+
+.pr_photo{
+    width: 50px ;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#new_post_add {
+	border: none;
+	border-radius: 30px;
+	margin-left: 5px;
+	transition: 0.5s;
+	text-align: left;
+	color: #606266;
+	padding: 0 10px;
+	height: 40px;
+}
+.post_box_footer button {
+	border: none;
+	border-radius: 8px;
+	padding: 5px;
+	color: #606266;
+	background: #fff;
+	font-size: 16px;
+	transition: 0.5s;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: center;
+}
+.post_box_footer button:hover {
+	background: #dddddd91;
+}
+.post_box_footer button i {
+	font-size: 26px;
+}
+
+.post_box_footer button:nth-child(1) i{
+    color: #f3425f;
+}
+.post_box_footer button:nth-child(2) i{
+    color: #45bd61;
+}
+.post_box_footer button:nth-child(3) i{
+    color: #eab025;
+}
+
+
+/* all post css work */
+#post_user_name{
+	font-size: 15px;
+	cursor: pointer;
+}
+
+#post_date {
+	font-size: 12px;
+	cursor: pointer;
+}
+
+#p_edite_delate {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: none;
+	background: none;
+}
+#p_edite_delate:hover{	
+	background: #dddddd91;
+}
+.post_pro_photo{
+	width: 40px;
+	height: 40px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+/* post contain */
+.post_contain_sec{
+	background: white;
+}
+
+.post_contain_sec p {
+	padding: 0 10px;
+	font-size: 15px;
+	text-align: justify;
+}
+#post_image {
+	border: 1px solid #ddd;
+}
